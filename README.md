@@ -3,25 +3,4 @@
 ## Problem Statement
 An e-commerce startup "QuickCart" needs a Product Listing Dashboard for internal use. The dashboard fetches products from an external API (`https://fakestoreapi.com/products`), displays them in a clean UI, allows filtering, searching, standard interaction, and prepares the foundation for future React migration. 
 
-*(Note: This project was built entirely in React to fulfill the bonus "React Readiness" assessment requirements!)*
-
-## Features Implemented
-- **Fetch & Display Products**: Fetches live data from the FakeStore API and renders it responsively using Bootstrap Grid.
-- **Category Filter**: Extracts unique categories dynamically and creates a dropdown filter to refine products.
-- **Search Functionality**: A real-time, case-insensitive search bar that filters products by their title.
-- **Product Detail View**: Clicking a product opens a neat modal showing the full description, price, and rating.
-- **Sorting Feature**: Instantly sort items by "Price: Low to High" or "Price: High to Low".
-- **Cart Simulation**: An "Add to Cart" button on each product updates a global cart counter in the top navigation bar without backend requirements.
-- **Responsive UI**: Scales elegantly on Mobile, Tablet, and Desktop displays using standard break points.
-- **Error Handling**: Displays loaders while fetching data and explicit error messages on network failure.
-
-## Screenshots
-*(Provide your screenshots here!)*
-
-- **Desktop View**: `[Insert desktop screenshot]`
-- **Mobile View**: `[Insert mobile screenshot]`
-- **Modal View**: `[Insert modal screenshot]`
-
-## Challenges Faced
-- **Managing complex derived state**: Juggling the search query, category filter, and sorting simultaneously required careful use of `useMemo` hooks to keep renders performant and logic clean.
-- **Responsive UI Layouts**: Overriding standard Bootstrap breakpoints and utilizing CSS utilities seamlessly to maintain clean grid layout behavior during resize.
+working URL: https://quickcart-dashboard-alpha.vercel.app/
